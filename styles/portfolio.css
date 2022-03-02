@@ -104,6 +104,10 @@ p {
   body {
     text-align: center;
   }
+
+  h2 {
+    font-size: 54px;
+  }
   .hero {
     padding: 186px 0 100px;
   }
