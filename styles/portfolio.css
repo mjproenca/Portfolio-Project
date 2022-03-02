@@ -33,10 +33,18 @@ p {
   line-height: 1.7;
 }
 
+.nav-item {
+  padding: 0 10px;
+}
+
+.bg-white {
+  background: var(--main-color) !important;
+}
+
 .hero {
   background: var(--main-color);
   text-align: center;
-  padding: 259px 134px 178px;
+  padding: 120px 134px 120px;
 }
 
 .hero p {
@@ -118,7 +126,7 @@ p {
     font-size: 54px;
   }
   .hero {
-    padding: 186px 0 100px;
+    padding: 100px 0 100px;
   }
 
   .hero h1 {
