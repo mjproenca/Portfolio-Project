@@ -61,10 +61,6 @@ p {
 }
 
 .profile-pic {
-  padding: 80px 100px;
-}
-
-.profile-pic img {
   border-radius: 4px;
 }
 
@@ -102,4 +98,13 @@ p {
 
 .contact {
   background: var(--banner-color);
+}
+
+@media (max-width: 960px) {
+  body {
+    text-align: center;
+  }
+  .hero {
+    padding: 196px 50px 150px;
+  }
 }
