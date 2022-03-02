@@ -1,7 +1,9 @@
 :root {
-  --banner-background: #f2de71;
+  --main-color: #f2de71;
   --secondary-color: #ffffff;
+  --banner-color: #faf4c9;
   --font-family: "Montserrat", sans-serif;
+  --opacity: 0.21;
 }
 
 h1 h2 h3 p {
@@ -27,7 +29,7 @@ p {
 }
 
 .hero {
-  background: var(--banner-background);
+  background: var(--main-color);
   text-align: center;
   padding: 259px 134px 178px;
 }
@@ -59,4 +61,8 @@ p {
 
 .profile-pic img {
   border-radius: 4px;
+}
+
+.services {
+  background: var(--banner-color);
 }
