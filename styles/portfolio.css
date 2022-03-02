@@ -72,6 +72,15 @@ p {
   background: var(--banner-color);
 }
 
+.accordion-button {
+  background: var(--main-color);
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: var(--main-color);
+  color: #272142;
+}
+
 .btn-branding-portfolio {
   background: var(--main-color);
   border-radius: 4px;
