@@ -60,12 +60,21 @@ p {
   font-size: 18px;
 }
 
+.btn-light:hover {
+  background: none;
+  border: 1px solid #272142;
+}
+
 .profile-pic {
   border-radius: 4px;
 }
 
 .services {
   background: var(--banner-color);
+}
+
+.services-icon {
+  opacity: 0.5;
 }
 
 .accordion-button {
