@@ -6,7 +6,7 @@
   --opacity: 0.21;
 }
 
-h1 h2 h3 p {
+body {
   font-family: var(--font-family);
 }
 
@@ -24,6 +24,7 @@ h2 {
 
 h3 {
   font-size: 48px;
+  font-weight: normal;
 }
 
 p {
@@ -80,5 +81,12 @@ p {
 }
 
 .portfolio-description {
-  padding: 30px;
+  padding: 30px 30px 104px;
+}
+
+@media (max-width: 960px) {
+  .portfolio-description {
+    padding: 0;
+    text-align: center;
+  }
 }
