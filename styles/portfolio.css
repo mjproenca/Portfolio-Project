@@ -74,7 +74,7 @@ p {
 }
 
 .profile-pic {
-  border-radius: 4px;
+  border-radius: 4px 60px;
 }
 
 .services {
