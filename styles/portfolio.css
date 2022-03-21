@@ -106,18 +106,19 @@ p {
   padding: 30px 30px 104px;
 }
 
-@media (max-width: 960px) {
-  .portfolio-description {
-    padding: 0;
-    text-align: center;
-  }
-}
-
 .contact {
   background: var(--banner-color);
 }
 
 @media (max-width: 960px) {
+  .navbar {
+    display: flex;
+  }
+
+  .portfolio-description {
+    padding: 0;
+    text-align: center;
+  }
   body {
     text-align: center;
   }
@@ -126,11 +127,11 @@ p {
     font-size: 54px;
   }
   .hero {
-    padding: 100px 0 100px;
+    padding: 50px 0 50px;
   }
 
   .hero h1 {
-    font-size: 80px;
+    font-size: 60px;
   }
 
   .hero p {
